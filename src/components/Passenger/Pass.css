@@ -1,0 +1,7 @@
+.PassContFourImg {
+  background-image: url("../Images/PassLast.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80vh;
+  width: 50%;
+}

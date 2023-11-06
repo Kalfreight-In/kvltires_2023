@@ -1,0 +1,64 @@
+.container_otr{
+    display: grid;
+     grid-template-columns: auto;
+     width: auto;
+}
+
+.carousel{
+     grid-column: 1 / 3;
+     height: 150px;
+}
+
+.left_cont{
+    background-color: #C81010;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 900px;
+}
+
+.right_cont{
+    background-color: #F4F4F4;
+    height: 50em;
+    float: right;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.bkttires {
+    position: absolute;
+    height: 600px;
+    width: 900px;
+    top: 50px;
+    left: 150px;
+}
+
+.content{
+    width: 50%;
+}
+
+.items{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+    padding-top: 40px;
+}
+
+.item_1{
+    display: flex;
+    flex-direction: row; 
+    gap: 20px;
+    align-items: center;
+}
+
+.brand {
+    display: flex;
+   justify-content: space-around;
+ }
+
+ .brand >img{
+    object-fit: contain;
+ }

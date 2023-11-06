@@ -1,0 +1,87 @@
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.WhoAreWe{
+ padding: 100px;
+}
+
+.OurServices{
+    background-color: #F9F9F9;
+    padding: 100px 0 100px 100px;
+    width: 100%;
+}
+
+.content_1{
+    width: 100%;
+}
+
+.OurServicesImg{
+   width: 900px;
+   height: 400px;  
+}
+
+.imgCont1{
+    background-image: url("../Images/OurServicesImg.jpg");
+    background-position: center;
+     width: 1100px;
+   height: 400px;  
+   background-size: cover;
+}
+
+.OurServices .left{
+    float: left;
+    width: 30%;
+}
+
+.OurServices .right{
+    float: right;
+    width: 70%;
+}
+
+.HowWeWork{
+padding: 100px 100px 100px 0;
+width: 100%;
+}
+
+.imgCont2{
+    width: 400px;
+   height: 400px;
+background-image: url("../Images/HowWeWorkImg.jpg");
+    background-size: cover;  
+}
+
+.HowWeWork .left{
+    width: 35%;
+    float: left;
+}
+
+.HowWeWork .right{
+    width: 65%;
+    float: right;
+    padding-left: 100px;
+}
+
+.OurProjectTransportation{
+padding: 100px;
+background-color: #F9F9F9;
+}
+
+.OPTImage{
+    background-image: url("../Images/OurTransportation.png");
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title{
+    color: #1C1F35;
+}
+
+.subtitle{
+    color: #C81010;
+}
+
+

@@ -1,0 +1,37 @@
+.hhwCont{
+    
+  background-color: #F4F4F4;
+}
+
+.AgriImg1 {
+  background-image: url("../Images/AgriTwo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30vh;
+  width: 100%;
+}
+
+.AgriContSide {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  justify-content: end;
+  background-color: #F4F4F4;
+
+}
+
+.AgriContSide > img {
+  height: 60vh;
+  width: 40vw;
+  padding: 40px;
+}
+
+.agriTitle{
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+}
+
+.AgriRight{
+width: 40%;
+padding: 40px 0;
+}

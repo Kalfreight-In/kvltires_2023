@@ -1,0 +1,87 @@
+.contact-container {
+  position: relative;
+  background-image: url("../Images/ContactImage.jpg");
+  padding: 100px;
+  background-size: cover;
+  text-align: center;
+}
+
+.contact-container::before {
+  content: "";
+  background: rgba(255, 255, 255, 0.1); /* Background color with 10% opacity */
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; 
+}
+
+.contact-container h3 {
+  color: #1C2752;
+  size: 45px;
+}
+
+.upper_button {
+  background-color: white;
+  color: #1C2752;
+  size: 18px;
+}
+
+form{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px 100px 20px 100px;
+  position: relative;
+  width: 50%;
+  align-items: center;
+}
+
+.form-column {
+  flex-basis: calc(50% - 20px);
+  border: none;
+}
+
+.lower_form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 0px solid #ccc;
+  border-radius: 0px;
+  margin-bottom: 10px;
+}
+
+button {
+ background-color: #ED1C24; /* Button background color */
+  color: #fff; /* Button text color */
+  padding: 10px 40px;
+  font-size: 18px;
+  border: none;
+  /* border-radius: 5px; */
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  color: #ED1C24;
+}

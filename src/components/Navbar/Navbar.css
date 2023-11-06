@@ -1,0 +1,373 @@
+/* Navbar.css */
+.navbar-container{
+display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  color: #ed1c24;
+  padding-left: 50px;
+  height: 100px;
+}
+
+.navbar-left {
+  flex: 1;
+  display: flex;
+;
+}
+
+.logo {
+  width: 159px;
+  height: 123px;
+  padding-right: 10px;
+  padding-top: 0px;
+}
+
+.navbar-center {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 20xp;
+  width: 50%;
+}
+
+.search-input {
+  width: 100%;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.navbar-right {
+  flex: 1;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.call{
+background-color: #fff;
+  color: #333;
+  padding: 0px 0px 0px 20px;
+}
+
+.number{
+    background-color: #fff;
+  color: #ED1C24;
+  padding: 0px 20px 0px 20px;
+}
+
+.signin-button {
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ED1C24;
+  color: #fff;
+  border: none;
+  border-radius: 1px;
+  padding: 0px;
+  padding: 10px 20px;
+  cursor: pointer;
+  height: 100px;
+  width: 150px;
+  
+}
+.signin-icon {
+  padding-left: 5px; /* Adjust the spacing between the text and icon */
+  font-size: 18px; /* Adjust the icon size as needed */
+  color: white;
+}
+
+.signin-button:hover {
+  background-color: #fff;
+   color: #ED1C24;
+}
+
+.search-button {
+  background-color: #fff;
+  color: #333;
+  border: none;
+  border-radius: 1px;
+  /* padding: 10px 20px; */
+  cursor: pointer;
+  height: 80px;
+  width: 150px;
+  border-left-style: solid;
+  border-left-color: #797979;
+}
+.search-button:hover {
+  /* background-color: #ED1C24; */
+color: #ED1C24;
+}
+
+.bottom-navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f3f3f3;
+  padding: 10px;
+  width: 100%; /* Set an explicit width to match the navbar */
+  height: 60px;
+}
+
+
+.bottom-nav-item {
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.hamburger-button{
+  color: black;
+  background-color: inherit;
+}
+
+.hamburger-button:hover{
+  background-color: inherit;
+  color: #ed1c24;
+}
+
+/* .bottom-nav-item:hover {
+  background-color: #555;
+} */
+
+/* Navbar.css */
+.search-bar-button {
+  background-color: red;
+  color: white;
+  border: none;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-bar-button:hover {
+  background-color: darkred; /* Change color on hover if desired */
+  color: white;
+}
+
+/* Navbar.css */
+.bottom-nav-item {
+  display: flex;
+  align-items: center; /* Vertically align the icon and text */
+  padding-right: 20px; /* Adjust padding as needed */
+  justify-content: flex-end;
+}
+
+p{
+  color: #6B6B6B;
+}
+
+.location-icon {
+  width: 30px; /* Adjust the width as needed */
+  height: 20px; /* Adjust the height as needed */
+  padding-left: 10px; /* Adjust the spacing between the icon and text */
+}
+
+.sidepanel {
+  width: 250px; /* Set the initial width for the vertical side panel */
+  position: fixed;
+  z-index: 1;
+  height: 100%; /* Make it full height of the viewport */
+  top: 0;
+  left: -250px; /* Start off-screen to the left */
+  background-color: #111;
+  overflow-y: auto; /* Enable vertical scrolling if content overflows */
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+/* Style for the close button */
+.closebtn {
+  position: absolute;
+  top: 10px; /* Adjust the top position as needed */
+  right: 0px; /* Adjust the right position as needed */
+  font-size: 15px;
+  color: black;
+  cursor: pointer;
+  width: 20px;
+  background-color: inherit;
+}
+
+.side-panel {
+  position: fixed;
+  top: 0;
+  left: -250px; /* Adjust the width as needed */
+  width: 250px; /* Adjust the width as needed */
+  height: 100%;
+  background-color: white;
+  transition: left 0.3s ease-in-out;
+  z-index: 100;
+}
+
+.side-panel.open {
+  left: 0;
+  top: 160px;
+}
+
+.side-panel-content{
+  display: flex;
+  margin-top: 30px;
+  margin-left: -40px;
+  padding: 30px;
+}
+
+.side-panel-content > ul {
+  list-style: none;
+  text-decoration: none;
+  width: 100%;
+}
+
+.side-panel-content > ul {
+  list-style: none;
+  text-decoration: none;
+  width: 100%;
+}
+
+.side-panel-content > ul :hover {
+  background-color: #f3f3f3;
+  color: #6B6B6B;
+  width: 100%;
+}
+
+.item{
+  color: #747474;
+  display: flex;
+  padding-top: 10px;
+  text-decoration: none;
+  font-size: small;
+}
+
+hr.new3 {
+  border-top: 1px dotted black;
+  width: 100%;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  color: #333;
+}
+
+/* Your existing styles for links in the side panel */
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+.container {
+  max-width: 1050px;
+  width: 90%;
+  margin: auto;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+}
+
+.nav-container .checkbox {
+  position: absolute;
+  display: block;
+  height: 32px;
+  width: 32px;
+  top: 20px;
+  left: 20px;
+  z-index: 5;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.hamburger-lines {
+  display: block;
+  height: 26px;
+  width: 32px;
+  position: absolute;
+  top: 17px;
+  left: 20px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hamburger-lines .line {
+  display: block;
+  height: 4px;
+  width: 100%;
+  border-radius: 10px;
+  background: #0e2431;
+}
+
+.bottom-navbar .hamburger-lines .line1 {
+  transform-origin: 0% 0%;
+  transition: transform 0.4s ease-in-out;
+}
+
+ .bottom-navbar .hamburger-lines .line2 {
+  transition: transform 0.2s ease-in-out;
+}
+
+ .bottom-navbar .hamburger-lines .line3 {
+  transform-origin: 0% 100%;
+  transition: transform 0.4s ease-in-out;
+}
+
+.bottom-navbar .menu-items {
+  padding-top: 120px;
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+  height: 100vh;
+  width: 100%;
+  transform: translate(-150%);
+  display: flex;
+  flex-direction: column;
+  margin-left: -40px;
+  padding-left: 50px;
+  transition: transform 0.5s ease-in-out;
+  text-align: center;
+}
+
+.bottom-navbar .menu-items li {
+  margin-bottom: 1.2rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.nav-container input[type="checkbox"]:checked ~ .menu-items {
+  transform: translateX(0);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+  transform: rotate(45deg);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+  transform: scaleY(0);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+  transform: rotate(-45deg);
+}
+

@@ -1,0 +1,187 @@
+.card_A{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 45vh;
+    padding: 4em;
+    box-shadow: 2px 2px 15px #888;
+    justify-content: inherit;
+}
+
+h4{
+    font-size: large;
+}
+
+.card_container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10vh 10vw; 
+    justify-content: space-around;
+}
+
+.arrow{
+    text-align: center;
+}
+
+img{
+    height: 10vh;
+    width: 10vh;
+}
+
+.Nationwide{
+    filter: invert(100%);
+}
+
+p{
+    color: #1C1F35;
+}
+
+.first{
+    color: white;
+}
+
+.heavy_hauler{
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.assistance_button{
+  background-color: #ED1C24; /* Button background color */
+  color: #fff; /* Button text color */
+  padding: 10px 40px;
+  font-size: 18px;
+  border: none;
+  /* border-radius: 5px; */
+  cursor: pointer;
+  width: 250px;
+  height: 50px;
+}
+
+.heavy_hauler p {
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    color: #666C89;
+    padding: 20px 50px 0 50px;
+}
+
+.RoadsideContainer{
+    display: flex;
+    flex-direction: row;
+    padding: 50px 100px;
+}
+
+.first_container{
+float: left;
+width: 40%;
+}
+
+.image_container{
+    /* background-image: url("../Images/CommTires.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    text-align: end;
+    float: right;
+    width: 60%;
+    position: relative;
+    /* width: 600px;
+    height: 400px; */
+}
+
+.img1{
+    width: 700px;
+    height: 400px;
+     position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 50px;
+}
+
+.img2{
+    position: absolute;
+    z-index: 2;    /* Place this image in front of the img1 */
+    width: 350px;
+    height: 250px;
+    top: 100px;
+    left: 100px;
+}
+
+.title{
+    font-size: 35px;
+}
+
+.first_container p {
+    color: #666C89;
+}
+
+.heavy_duty_trucks{
+   display: grid;
+  grid-template-columns: auto auto;
+    padding: 50px 100px;
+}
+
+.item1{
+    grid-row: 1 / 3;
+    width: 750px;
+}
+
+.item1 img{
+    height: 700px;
+    width: 550px;
+}
+
+.item2{
+   padding-bottom: 10em;
+   width: 600px;
+}
+
+.item3 img{
+    width: 900px;
+    height: 600px;
+}
+
+.card_container_two{
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+gap: 20px;
+    flex-direction: row;
+}
+
+.card_container_two p{
+    font-size: 16px;
+}
+
+.card_b{
+    padding: 20px;
+    /* border: 0.2px solid #666C89; */
+    box-shadow: 0.1px 0.1px 2px #666C89;
+}
+
+.card_upper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title{
+    font-size: 22px;
+}
+
+.subtitle{
+    color: #666C89;
+}
+
+.card_b_img{
+    width: 65px;
+    height: 65px;
+}
+
+@media (max-width: 800px) {
+  .card_container_two {
+    flex-direction: column;
+  }
+}

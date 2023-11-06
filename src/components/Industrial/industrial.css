@@ -1,0 +1,47 @@
+.Cont_top {
+  display: flex;
+  flex-direction: row;
+  height: 60vh;
+  padding: 40px 0;
+  justify-content: center;
+}
+
+.imageCont {
+  padding: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.imageCont > img {
+  height: 45vh;
+  width: 35vw;
+}
+
+.Cont_top_one {
+  /* width: 80%; */
+  grid-column: 1 / 3;
+  border-bottom: 0.5px dotted #747474;
+  margin-bottom: 50px;
+}
+
+.item_1 > img {
+  height: 50px;
+  width: 50px;
+}
+
+.leftConTop {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 40%;
+}
+
+.TwoConts {
+  width: 60%;
+}
+
+.TwoConts > img {
+  height: 80px;
+  width: 80px;
+}
